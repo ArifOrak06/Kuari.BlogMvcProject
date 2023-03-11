@@ -14,6 +14,7 @@ namespace Kuari.Blog.Repository.Configurations
         public void Configure(EntityTypeBuilder<Contact> builder)
         {
             builder.HasKey(x => x.Id);
+            builder.Property(x => x.Id).UseIdentityColumn();
         }
     }
 }
