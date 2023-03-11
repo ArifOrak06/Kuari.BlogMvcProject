@@ -1,12 +1,13 @@
-﻿using System;
+﻿using Kuari.Blog.Core.DTOs.Abstract;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Kuari.Blog.Core.DTOs.Concrete
+namespace Kuari.Blog.Core.DTOs.Concrete.ArticleDTOs
 {
-    public class ArticleDto
+    public class ArticleUpdateDto : IUpdateDto
     {
         public string Title { get; set; }
         public string MainContent { get; set; }

@@ -1,5 +1,7 @@
 ﻿using AutoMapper;
-using Kuari.Blog.Core.DTOs.Concrete;
+using Kuari.Blog.Core.DTOs.Concrete.ArticleDTOs;
+using Kuari.Blog.Core.DTOs.Concrete.CategoryDTOs;
+using Kuari.Blog.Core.DTOs.Concrete.CommentDTOs;
 using Kuari.Blog.Core.Entities.Concrete;
 using System;
 using System.Collections.Generic;

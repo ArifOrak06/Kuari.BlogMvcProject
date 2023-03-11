@@ -5,9 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Kuari.Blog.Core.DTOs.Concrete
+namespace Kuari.Blog.Core.DTOs.Concrete.CategoryDTOs
 {
-    public class CategoryUpdateDto:IUpdateDto
+    public class CategoryUpdateDto : IUpdateDto
     {
         public string Name { get; set; }
         public string Description { get; set; }

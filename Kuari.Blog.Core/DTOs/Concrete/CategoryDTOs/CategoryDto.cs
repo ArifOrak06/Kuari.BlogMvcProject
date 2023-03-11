@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Kuari.Blog.Core.DTOs.Concrete
+namespace Kuari.Blog.Core.DTOs.Concrete.CategoryDTOs
 {
     public class CategoryDto
     {
