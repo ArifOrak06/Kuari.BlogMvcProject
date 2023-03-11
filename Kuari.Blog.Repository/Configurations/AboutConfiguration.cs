@@ -13,6 +13,8 @@ namespace Kuari.Blog.Repository.Configurations
         public void Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder<About> builder)
         {
             builder.HasKey(x => x.Id);
+            builder.Property(x => x.Id).UseIdentityColumn();
+        
         }
     }
 }
