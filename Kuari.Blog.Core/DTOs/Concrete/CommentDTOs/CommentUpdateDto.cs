@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Kuari.Blog.Core.DTOs.Concrete.CommentDTOs
+namespace Kuari.Blog.Core.DTOs.Concrete
 {
     public class CommentUpdateDto : IUpdateDto
     {

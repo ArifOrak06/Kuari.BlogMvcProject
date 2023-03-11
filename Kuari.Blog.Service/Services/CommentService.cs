@@ -1,4 +1,4 @@
-﻿using Kuari.Blog.Core.DTOs.Concrete.CommentDTOs;
+﻿using Kuari.Blog.Core.DTOs.Concrete;
 using Kuari.Blog.Core.Entities.Concrete;
 using Kuari.Blog.Core.Repositories;
 using Kuari.Blog.Core.Services;
